@@ -13,6 +13,9 @@
 		6142A52B2405CD6400667E99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6142A5292405CD6400667E99 /* Main.storyboard */; };
 		6142A52D2405CD6700667E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6142A52C2405CD6700667E99 /* Assets.xcassets */; };
 		6142A5302405CD6700667E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6142A52E2405CD6700667E99 /* LaunchScreen.storyboard */; };
+		615DFF812407778E00E7F34B /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615DFF802407778E00E7F34B /* ServicesTableViewController.swift */; };
+		615DFF832407782300E7F34B /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615DFF822407782300E7F34B /* ServicesTableViewCell.swift */; };
+		619E7318243938560046B4D9 /* servicesList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 619E7317243938560046B4D9 /* servicesList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6142A52C2405CD6700667E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6142A52F2405CD6700667E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6142A5312405CD6700667E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615DFF802407778E00E7F34B /* ServicesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		615DFF822407782300E7F34B /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
+		619E7317243938560046B4D9 /* servicesList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = servicesList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		6142A5222405CD6400667E99 /* BusinessApplication */ = {
 			isa = PBXGroup;
 			children = (
+				615DFF7F2407777000E7F34B /* Services */,
 				6142A5232405CD6400667E99 /* AppDelegate.swift */,
 				6142A5252405CD6400667E99 /* SceneDelegate.swift */,
 				6142A5272405CD6400667E99 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				6142A5312405CD6700667E99 /* Info.plist */,
 			);
 			path = BusinessApplication;
+			sourceTree = "<group>";
+		};
+		615DFF7F2407777000E7F34B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				615DFF802407778E00E7F34B /* ServicesTableViewController.swift */,
+				615DFF822407782300E7F34B /* ServicesTableViewCell.swift */,
+				619E7317243938560046B4D9 /* servicesList.plist */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619E7318243938560046B4D9 /* servicesList.plist in Resources */,
 				6142A5302405CD6700667E99 /* LaunchScreen.storyboard in Resources */,
 				6142A52D2405CD6700667E99 /* Assets.xcassets in Resources */,
 				6142A52B2405CD6400667E99 /* Main.storyboard in Resources */,
@@ -138,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615DFF832407782300E7F34B /* ServicesTableViewCell.swift in Sources */,
 				6142A5282405CD6400667E99 /* ViewController.swift in Sources */,
+				615DFF812407778E00E7F34B /* ServicesTableViewController.swift in Sources */,
 				6142A5242405CD6400667E99 /* AppDelegate.swift in Sources */,
 				6142A5262405CD6400667E99 /* SceneDelegate.swift in Sources */,
 			);
